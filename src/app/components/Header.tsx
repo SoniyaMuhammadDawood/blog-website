@@ -40,7 +40,7 @@ const Header = () => {
         absolute lg:relative top-full right-0 lg:right-auto
         bg-[#37AFE1] lg:bg-transparent
         w-52 lg:w-auto h-[40vh] lg:h-auto
-        pt-4 lg:pt-0 px-4 lg:px-0
+        pt-4 lg:pt-0 px-6 lg:px-0
         z-10 lg:z-auto
         transition-all duration-300 ease-in-out
         `}>

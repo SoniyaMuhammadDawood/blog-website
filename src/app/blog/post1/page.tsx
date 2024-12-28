@@ -10,8 +10,8 @@ const page = () => {
       
       <div className="max-w-screen-xl mx-auto p-5 sm:p-8 md:p-12 relative">
  
-<Image className="bg-cover  text-center items-center overflow-hidden mx-auto shadow-lg  rounded-lg"
-src={"/picture/agri.png"}
+<Image className="bg-cover text-center items-center overflow-hidden mx-auto shadow-lg  rounded-lg w-[700px] h-[400px]"
+src={"/picture/agri2.png"}
 alt="Post Image"
 height={700}
 width={700}
