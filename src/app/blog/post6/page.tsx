@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import CommentSection from '@/app/components/Comment'
+import CommentSection from '@/app/components/CommentSection'
 
 
 const page = () => {

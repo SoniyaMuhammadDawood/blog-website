@@ -9,9 +9,13 @@ const Footer = () => {
   return (
     <div>
 <footer className="bg-[#37AFE1]">
-  <div className="max-w-screen-lg py-2 px-4 sm:px-6 text-white sm:flex justify-between mx-auto">
-    <div className="p-5 sm:w-2/12 border-r">
-      <div className="text-lg uppercase text-indigo-600 font-bold">Menu</div>
+  <div className="max-w-screen-lg py-2 px-4 sm:px-6 text-white sm:flex justify-between
+   mx-auto">
+
+
+    <div className="p-5 sm:w-2/12 border-r  text-center">
+
+      <div className="text-lg uppercase text-black font-bold ">Menu</div>
       <ul>
         <li className="my-2">
           <Link className="hover:text-indigo-600" href="/">
@@ -40,14 +44,17 @@ const Footer = () => {
         </li>
       </ul>
     </div>
-    <div className="p-5 sm:w-7/12 border-r text-center">
-      <h3 className="font-bold text-lg  text-indigo-600 mb-4 uppercase">Explore Our Blog</h3>
+    
+
+    <div className="p-5 sm:w-7/12 border-r  text-center">
+      <h3 className="font-bold text-lg  text-black mb-4 uppercase">Explore Our Blog</h3>
       <p className="text-white text-lg mb-10 px-4">
       Dive into a world of insights, tips, and stories crafted to inform and inspire. From the latest trends to timeless ideas, our blog brings you content that matters. Stay curious and keep exploring!
       </p>
     </div>
-    <div className="p-5 sm:w-3/12">
-      <div className="text-lg uppercase text-indigo-600 font-bold">
+
+    <div className="p-5 sm:w-3/12 text-center">
+      <div className="text-lg uppercase text-black font-bold">
         Contact Us
       </div>
       <ul>
@@ -65,7 +72,7 @@ const Footer = () => {
     </div>
   </div>
 
-  {/* botto Links */}
+  {/* bottom Links */}
   <div className="flex py-2 m-auto text-sm flex-col items-center border-t max-w-screen-xl">
     <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex gap-4">
 

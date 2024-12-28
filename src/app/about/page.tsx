@@ -12,11 +12,11 @@ const page = () => {
 
   {/* 1st div */}
   <div className="relative">
-    <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+    <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 md:grid md:grid-cols-2 ">
       <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
         <div>
           <div>
-            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-purple-400">
+            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#efc070]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -35,17 +35,18 @@ const page = () => {
             </span>
           </div>
           <div className="mt-6">
-            <h2 className="text-3xl font-bold tracking-tight text-black">
-              Natural Language Processing (NLP):
+            <h2 className="text-3xl font-bold md:tracking-tighter md:text-[1.6rem] tracking-tight text-black">
+              Revolutionizing Communication
             </h2>
-            <p className="mt-4 text-lg text-black">
-              The AI product utilizes advanced NLP algorithms to understand and
-              interpret human language, enabling it to accurately process and
-              analyze text-based inputs.
+            <p className="mt-4 text-lg text-black md:tracking-tighter">
+             AI is redefining the way we connect by bridging the gap between human
+             language and technology. With smarter interactions and meaningful 
+             insights, its paving the way for a more connected future.
             </p>
             <div className="mt-6">
               <a
-                className="inline-flex rounded-lg bg-purple-400 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-white hover:bg-purple-500 hover:ring-white"
+                className="inline-flex rounded-lg bg-[#efc070] px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-white
+                 hover:bg-[#D39D55] hover:ring-white"
                 href="/login"
               >
                 Learn More
@@ -54,16 +55,16 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="mt-12 sm:mt-16 lg:mt-0">
-        <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+      <div className="mt-12 sm:mt-16 lg:mt-0 md:mt-0">
+        <div className="-mr-48 pl-6 lg:relative lg:m-0 lg:h-full lg:px-0  md:m-0 md:mt-14 md:h-full  ">
           <Image
-          alt='image'
-            loading="lazy"
+            alt='image'
+            loading="eager"
             width={647}
             height={486}
             className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-[98%] lg:max-w-none"
             style={{ color: "transparent" }}
-            src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137"
+            src="/picture/about.png"
           />
         </div>
       </div>
@@ -72,11 +73,11 @@ const page = () => {
 
    {/* 2nd div */}
   <div className="relative">
-    <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+    <div className="mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 md:grid md:max-w-7xl  md:grid-cols-2 md:px-2">
       <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
         <div>
           <div>
-            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-purple-400">
+            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#efc070]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -95,17 +96,19 @@ const page = () => {
             </span>
           </div>
           <div className="mt-6">
-            <h2 className="text-3xl font-bold tracking-tight text-black">
-              Sentiment Analysis:
+            <h2 className="text-3xl md:tracking-tighter  font-bold tracking-tight text-black">
+              Transforming Everyday Life
             </h2>
-            <p className="mt-4 text-lg text-black">
-              The product has built-in sentiment analysis capabilities, allowing
-              it to determine the sentiment (positive, negative, or neutral)
-              expressed in text or customer feedback.
+            <p className="mt-4 text-lg text-black md:tracking-tighter">
+            From revolutionizing farming techniques to enhancing educational 
+            experiences, AI is driving innovation across industries. Its ability
+            to solve real-world challenges makes it an essential part of our
+            daily lives.
             </p>
             <div className="mt-6">
               <a
-                className="inline-flex rounded-lg bg-purple-400 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-white hover:bg-purple-500 hover:ring-white"
+                className="inline-flex rounded-lg bg-[#efc070] px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-white 
+                hover:bg-[#D39D55] hover:ring-white"
                 href="/login"
               >
                 Learn More
@@ -115,15 +118,15 @@ const page = () => {
         </div>
       </div>
       <div className="mt-12 sm:mt-16 lg:mt-0">
-        <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+        <div className="-ml-48 pr-6 md:relative lg:relative lg:m-0 lg:h-full lg:px-0 md:m-0 md:h-full md:px-0">
           <Image
             alt="Inbox user interface"
-            loading="lazy"
+            loading="eager"
             width={647}
             height={486}
             className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-[90=5%] lg:max-w-none "
             style={{ color: "transparent" }}
-            src="https://images.unsplash.com/photo-1599134842279-fe807d23316e"
+            src="/picture/about1.png"
           />
         </div>
       </div>
@@ -132,11 +135,11 @@ const page = () => {
 
    {/* 3rd div */}
   <div className="relative">
-    <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+    <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 md:grid md:grid-cols-2 md:px-2">
       <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
         <div>
           <div>
-            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-purple-400">
+            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#efc070]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -156,15 +159,16 @@ const page = () => {
           </div>
           <div className="mt-6">
             <h2 className="text-3xl font-bold tracking-tight text-black">
-              Natural Language Generation (NLG):
+             Unlocking the Future
             </h2>
-            <p className="mt-4 text-lg text-black">
-              The AI product can generate human-like written content, summaries,
-              or reports based on structured data or analysis results.
+            <p className="mt-4 text-lg text-black md:tracking-tighter">
+             The possibilities of AI are limitless, shaping industries and opening
+             doors to a smarter, more efficient world. Explore how this groundbreaking technology is redefining whats possible.
             </p>
             <div className="mt-6">
               <a
-                className="inline-flex rounded-lg bg-purple-400 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-white hover:bg-purple-500 hover:ring-white"
+                className="inline-flex rounded-lg bg-[#efc070] px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-white
+                 hover:bg-[#D39D55] hover:ring-white"
                 href="/login"
               >
                 Learn More
@@ -174,23 +178,22 @@ const page = () => {
         </div>
       </div>
       <div className="mt-12 sm:mt-16 lg:mt-0">
-        <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+        <div className="-mr-48 pl-6 lg:relative lg:m-0 lg:h-full lg:px-0 md:relative md:m-0 md:h-full ">
           <Image
             alt='image'
-            loading="lazy"
+            loading="eager"
             width={646}
             height={485}
-            className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+            
+            className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-[98%] lg:max-w-none"
             style={{ color: "transparent" }}
-            src="https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e"
+            src="/picture/about2.png"
           />
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
 
   )
 }

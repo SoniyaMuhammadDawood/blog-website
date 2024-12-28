@@ -10,7 +10,7 @@ const FAQSection: React.FC = () => {
   };
 
   return (
-    <section className="py-10 bg-gray-50 sm:py-16 lg:py-20 w-full h-screen bg-[url('/picture/girl.png')] bg-center bg-cover bg-no-repeat">
+    <section className="py-10 bg-gray-50 sm:py-16 lg:py-20 w-full min-h-screen ">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
@@ -77,9 +77,9 @@ const FAQSection: React.FC = () => {
             </div>
           ))}
         </div>
-        <p className="text-center text-white text-lg mt-9">
+        <p className="text-center  text-lg mt-9">
           Still have questions?{" "}
-          <span className="cursor-pointer font-medium text-tertiary transition-all duration-200 hover:text-tertiary focus:text-tertiary hover-underline text-white">
+          <span className="cursor-pointer font-medium text-tertiary transition-all duration-200 hover:text-tertiary focus:text-tertiary  hover:underline">
             Contact our support
           </span>
         </p>
