@@ -36,10 +36,10 @@ const Header = () => {
 
         <nav className={`${
           isMenuOpen ? 'flex' : 'hidden'
-        } lg:flex flex-col lg:flex-row lg:items-center text-lg justify-center text-white
+        } lg:flex flex-col lg:flex-row lg:items-center text-lg justify-center text-white gap-4
         absolute lg:relative top-full right-0 lg:right-auto
         bg-[#37AFE1] lg:bg-transparent
-        w-52 lg:w-auto h-[40vh] lg:h-auto
+        w-52 lg:w-auto h-[35vh] lg:h-auto
         pt-4 lg:pt-0 px-6 lg:px-0
         z-10 lg:z-auto
         transition-all duration-300 ease-in-out

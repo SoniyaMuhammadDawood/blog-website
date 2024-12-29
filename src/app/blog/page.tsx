@@ -66,12 +66,9 @@ const blogs = [
 
 const Page = () => {
   return (
-    <div>
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-20 mx-auto">
-          <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 -m-4">
+          <div className="text-gray-600 body-font lg:gap-4 md:gap-7 mx-4 sm:gap-5  py-20 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 ">
             {blogs.map((blog) => (
-              <div key={blog.id} className="p-4 w-full">
+              <div key={blog.id} className="xs:pb-8 sm:pb-4 md:pb-0 lg:pb-0 xs:mx-1 sm:mx-1">
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden cursor-pointer transition hover:scale-105 duration-300 shadow-xl">
                   <Image
                     className="w-full object-cover object-center h-48 sm:h-64 md:h-72 lg:h-56"
@@ -80,11 +77,11 @@ const Page = () => {
                     width={600}
                     height={400}
                   />
-                  <div className="p-6">
+                  <div className="p-6 xs:px-3 sm:px-3 ">
                     <h2 className="tracking-widest text-md title-font font-md text-gray-800 flex items-center gap-3 mb-4">
                       <IoCalendarNumberOutline className="text-2xl font-bold text-gray-800" />
                       <span>{blog.date}</span>
-                      <MdAccessTime className="text-2xl font-bold text-gray-800 ml-10" />
+                      <MdAccessTime className="text-2xl font-bold text-gray-800 ml-10 lg:ml-14 " />
                       <span>{blog.readTime}</span>
                     </h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
@@ -97,7 +94,7 @@ const Page = () => {
                       <Link href={blog.link}>
                         <Example />
                       </Link>
-                      <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm font-semibold pr-3 py-1 border-r-2 border-gray-200 cursor-pointer hover:text-teal-600">
+                      <span className="text-gray-500 mr-3 inline-flex items-center lg:ml-6 md:ml-0 ml-auto leading-none text-sm font-semibold pr-3 py-1 border-r-2 border-gray-200 cursor-pointer hover:text-teal-600">
                         <svg
                           className="w-4 h-4 mr-1"
                           stroke="currentColor"
@@ -132,9 +129,9 @@ const Page = () => {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-    </div>
+     
+ 
+    
   );
 };
 

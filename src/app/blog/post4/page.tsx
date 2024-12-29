@@ -22,11 +22,11 @@ width={700}
 <div className="max-w-2xl mx-auto">
   <div className="mt-12 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
     <div className="">
-      <a href="#" className="text-gray-900 font-bold text-3xl mb-2">
+      <a href="#" className="text-gray-900 font-serif font-bold italic tracking-wider text-3xl mb-2">
         AI in Architecture: Shaping the Future of Design
       </a>
       <div className="underline underline-offset-2">
-        <p className="text-gray-800 text-sm mt-2 font-bold">
+        <p className="text-gray-800 text-lg mt-2 font-bold">
           Written By:
           <a
             href="#"
@@ -37,7 +37,7 @@ width={700}
         </p>
       </div>
 
-      <p className="text-base leading-8 my-5">
+      <p className="text-lg leading-8 my-5">
         <span className="text-indigo-500 font-bold text-xl">AI in Architecture</span> is revolutionizing the design and construction industry by introducing innovative tools and techniques. From generating optimized layouts to enhancing sustainability, AI is empowering architects to create smarter, more efficient buildings.
       </p>
 
@@ -53,7 +53,7 @@ width={700}
         AI helps architects incorporate sustainable practices by analyzing energy efficiency, material usage, and environmental impact. By leveraging these insights, architects can design buildings that are eco-friendly and cost-effective, contributing to a greener future.
       </p>
 
-      <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-indigo-600">
+      <blockquote className="border-l-4 text-lg italic leading-8 my-5 p-5 text-indigo-600">
         AI is not just a tool for architects—it is a partner in innovation. By integrating AI into design processes, we can create spaces that are both beautiful and functional, tailored to the needs of the modern world.
       </blockquote>
 

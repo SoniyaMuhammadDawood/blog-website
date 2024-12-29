@@ -32,7 +32,7 @@ const page = () => {
           </label>
           <input
             type="text"
-            className="px-2 py-2 border w-full outline-none rounded-md focus:border-[#efc070] focus:border-2"
+            className="px-2 py-2 border border-[#efc070] w-full outline-none rounded-md focus:border-[#efc070] focus:border-2"
             id="exampleInput90"
             placeholder="Name"
           />
@@ -46,7 +46,7 @@ const page = () => {
           </label>
           <input
             type="email"
-            className="px-2 py-2 border w-full outline-none rounded-md focus:border-[#efc070] focus:border-2"
+            className="px-2 py-2 border border-[#efc070] w-full outline-none rounded-md focus:border-[#efc070] focus:border-2"
             id="exampleInput90"
             placeholder="Enter your email address"
           />
@@ -59,7 +59,7 @@ const page = () => {
             Message
           </label>
           <textarea
-            className="px-2 py-2 border rounded-[5px] w-full outline-none focus:border-[#efc070] focus:border-2"
+            className="px-2 py-2 border border-[#efc070] rounded-[5px] w-full outline-none focus:border-[#efc070] focus:border-2"
             name=""
             id=""
             defaultValue={""}

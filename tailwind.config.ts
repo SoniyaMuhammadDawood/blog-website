@@ -15,10 +15,13 @@ const config: Config = {
       screens: {
         
 
-        'xsm': '300px',
+       
         // => @media (min-width: 480px) { ... }
+
+        'xs': '330px',
+        // => @media (min-width: 480px) { ... }      
   
-        'sm': '600px',
+        'sm': '550px',
         // => @media (min-width: 640px) { ... }
   
         'md': '768px',

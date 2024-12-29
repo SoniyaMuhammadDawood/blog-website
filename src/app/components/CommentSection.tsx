@@ -115,7 +115,7 @@ export default function CommentSection() {
                   {new Date(comment.createdAt).toLocaleString()}
                 </p>
               </div>
-              <div>
+              <div >
                 <button
                   onClick={() => startEditing(comment.id)}
                   className="bg-green-400 text-white px-6 py-1 rounded-md text-md mr-2 hover:bg-green-600 tracking-wider"
