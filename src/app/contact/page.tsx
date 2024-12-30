@@ -13,7 +13,7 @@ const page = () => {
 
     <div className="flex justify-center">
       <div className="text-center md:max-w-2xl lg:max-w-3xl">
-        <h2 className="mb-12 px-6 text-3xl font-bold ">Contact us</h2>
+        <h2 className="mb-12 px-6 text-3xl font-serif font-bold italic tracking-wide">Contact us</h2>
       </div>
     </div>
 

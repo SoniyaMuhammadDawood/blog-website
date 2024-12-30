@@ -110,10 +110,10 @@ const Card: React.FC = () => {
     <section className="text-gray-600 body-font">
       <div className="container lg:px-5 sm:px-0 xs:px-0 py-16 mx-auto ">
         <div className="flex flex-col text-center w-full mb-16">
-          <h2 className="text-2xl text-[#efc070] tracking-widest font-bold title-font mb-2 uppercase">
+          <h2 className="text-2xl text-[#efc070]  font-serif font-bold italic tracking-widest title-font mb-2 uppercase">
             AI Spectrum
           </h2>
-          <h1 className="sm:text-3xl text-2xl font-semibold title-font mb-4 text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-semibold font-serif italic tracking-wide mb-4 text-gray-900">
             Unlocking the Power of Artificial Intelligence
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-lg font-medium text-gray-700">

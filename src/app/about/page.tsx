@@ -6,8 +6,8 @@ const page = () => {
 <div className="relative overflow-hidden pt-16 pb-32 space-y-24 ">
 
 <div className=' text-center w-full'>
-    <h1 className="capitalize text-4xl font-bold ">About us</h1>
-    <p className="text-xl mt-4 px-32 tracking-wider xsm:px-8 sm:px-10 lg:px-52 ">Welcome to our AI blog, your gateway to the world of artificial intelligence! Here, we explore how AI is revolutionizing industries like technology, farming, and education. From cutting-edge innovations to real-world applications, our goal is to keep you informed and inspired by the limitless possibilities of AI.</p>
+    <h1 className="capitalize text-4xl font-serif font-bold italic tracking-wide ">About us</h1>
+    <p className="text-xl mt-4  tracking-wider xs:px-6 sm:px-10 lg:px-56 ">Welcome to our AI blog, your gateway to the world of artificial intelligence! Here, we explore how AI is revolutionizing industries like technology, farming, and education. From cutting-edge innovations to real-world applications, our goal is to keep you informed and inspired by the limitless possibilities of AI.</p>
   </div>
 
   {/* 1st div */}
@@ -38,7 +38,7 @@ const page = () => {
             <h2 className="text-3xl font-bold md:tracking-tighter md:text-[1.6rem] tracking-tight text-black">
               Revolutionizing Communication
             </h2>
-            <p className="mt-4 text-lg text-black md:tracking-tighter">
+            <p className="mt-4 text-xl text-black md:tracking-tighter">
              AI is redefining the way we connect by bridging the gap between human
              language and technology. With smarter interactions and meaningful 
              insights, its paving the way for a more connected future.

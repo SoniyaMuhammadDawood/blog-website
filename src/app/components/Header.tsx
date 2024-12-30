@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <header className="text-gray-600 body-font bg-[#37AFE1] relative">
       <div className="container mx-auto flex flex-wrap p-2 items-center justify-between">
-        <h2 className="py-2 px-4 bg-sky-300/20 border-2 border-dashed rounded-full text-2xl md:text-4xl font-serif font-semibold text-gray-100">
+        <h2 className="py-2 px-4 bg-sky-300/20 border-2 border-dashed rounded-full text-2xl md:text-4xl font-serif font-semibold text-gray-100 italic tracking-wide">
           AI Spectrum
         </h2>
         
